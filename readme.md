@@ -1,3 +1,3 @@
-# Liquid Light
+# Organism
 
-Sources for Liquid Light project.
+Sources for Organism project.
