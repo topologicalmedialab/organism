@@ -293,6 +293,8 @@
 /brcosa2/saturation 1.000000
 /brcosa2/texrect 0.000000 0.000000 1.000000 1.000000
 # 
+/cue_manager/file/path SSD_1TB:/Users/tml/Documents/GitHub/organism/src/max/camera/candle.cues.txt
+# 
 /noteGen1/data/active 1
 /noteGen1/data/bypass 0
 /noteGen1/probs 50.000000 50.000000 50.000000 50.000000 50.000000 50.000000 50.000000 50.000000 50.000000 50.000000 50.000000 50.000000 50.000000 50.000000 50.000000 50.000000 50.000000 50.000000
@@ -316,8 +318,6 @@
 /noteGen6/pitchset 1.000000 2.000000 3.000000 4.000000 5.000000 6.000000 7.000000 8.000000
 /noteGen6/transpose -60
 /noteGen6/wide 0
-# 
-/notegenpresets/file/path none
 # 
 /rhyth/data/active 1
 /rhyth/chordsizeMax 18
