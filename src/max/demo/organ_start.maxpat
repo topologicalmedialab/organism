@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"openrect" : [ 30.0, 30.0, 179.0, 135.0 ],
+		"openrect" : [ 30.0, 30.0, 435.0, 360.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,16 +39,16 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-13",
-					"linecount" : 7,
+					"linecount" : 37,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 30.0, 45.0, 160.0, 100.0 ],
+					"patching_rect" : [ 30.0, 45.0, 160.0, 503.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 8,
-					"presentation_rect" : [ 15.0, 15.0, 150.0, 114.0 ],
+					"presentation_linecount" : 24,
+					"presentation_rect" : [ 15.0, 15.0, 405.0, 328.0 ],
 					"style" : "",
-					"text" : "Demo for the organ. Opens the organ_com server first, followed by the camera tracking patch. If you close a patch and want to restart it, you have to fully quit and restart Max."
+					"text" : "2018-02-15\n\nDemo patch for the organ.\n\nOpens the organ_com server first, followed by the camera tracking patch. If you close a patch and want to restart it, you have to fully quit and restart Max.\n\nTO TURN ON:\n\n1. Switch on the white power bar next to the iMac.\n\n2. Open the air valves from the wall (main valve, top two yellow valves (PPC main supply), top two red valves (PPC command signals)).\n\n3. Switch on the Abra power supply (on the floor to the right of the desk) for the ENTTEC ODE if you want to use the DMX lights.\n\nTO TURN OFF:\n\n1. Close the air valves main wall. Open the third red valve (with no hose attached) to bleed the remaining air pressure.\n\n2. Switch off the power bar."
 				}
 
 			}
