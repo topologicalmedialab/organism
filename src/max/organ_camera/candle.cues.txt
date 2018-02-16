@@ -2,24 +2,11 @@
 - description "something about this cue"
 # ###########################################
 # 
-/organ/18pcs/ppc/scale/high 3000.000000
-/organ/18pcs/ppc/scale/low 300.000000
-/organ/18pcs/ppc/scale/post 0.390000
-/organ/18pcs/ppc/on 1
-/organ/18pcs/solenoids 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-/organ/8pcs/ppc/scale/high 1200.000000
-/organ/8pcs/ppc/scale/low 300.000000
-/organ/8pcs/ppc/scale/post 0.660000
-/organ/8pcs/ppc/on 1
-/organ/8pcs/solenoids 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-/organ/baud 115200
-/organ/port b
-# 
 # 
 /brightness/gl_cf_gaussian_2p/data/active 1
 /brightness/gl_cf_gaussian_2p/data/bypass 0
-/brightness/gl_cf_gaussian_2p/width/x 1.000000
-/brightness/gl_cf_gaussian_2p/width/y 1.000000
+/brightness/gl_cf_gaussian_2p/width/x 0.100000
+/brightness/gl_cf_gaussian_2p/width/y 0.100000
 /brightness/gl_cf_gaussian_2p/context default
 /brightness/gl_cf_gaussian_2p/active 1
 /brightness/gl_cf_gaussian_2p/adapt 1
@@ -72,7 +59,7 @@
 /brightness/post_slide/active 1
 /brightness/post_slide/adapt 1
 /brightness/post_slide/antialias 0
-/brightness/post_slide/attack 0.900000
+/brightness/post_slide/attack 0.000000
 /brightness/post_slide/automatic 1
 /brightness/post_slide/decay 0.000000
 /brightness/post_slide/dim 720.000000 480.000000
@@ -251,6 +238,14 @@
 /qom_s/offset 0.000000
 /qom_s/visualize 1
 # 
+/async1/data/active 1
+/async1/data/bypass 0
+/async1/dim 2.000000
+# 
+/async2/data/active 1
+/async2/data/bypass 0
+/async2/dim 2.000000
+# 
 /brcosa/data/active 1
 /brcosa/data/bypass 0
 /brcosa/context default
@@ -293,43 +288,21 @@
 /brcosa2/saturation 1.000000
 /brcosa2/texrect 0.000000 0.000000 1.000000 1.000000
 # 
-/noteGen1/data/active 1
-/noteGen1/data/bypass 0
-/noteGen1/probs 50.000000 50.000000 50.000000 50.000000 50.000000 50.000000 50.000000 50.000000 50.000000 50.000000 50.000000 50.000000 50.000000 50.000000 50.000000 50.000000 50.000000 50.000000
-/noteGen1/dynamics 100
-/noteGen1/pitchset 0.000000 1.000000 2.000000 3.000000 4.000000 5.000000 6.000000 7.000000 8.000000 9.000000 10.000000 11.000000 12.000000 13.000000 14.000000 15.000000 16.000000 17.000000
-/noteGen1/transpose -60
-/noteGen1/wide 0
-# 
-/noteGen5/data/active 1
-/noteGen5/data/bypass 0
-/noteGen5/probs 50.000000 50.000000 50.000000 50.000000 50.000000 50.000000 50.000000 50.000000
-/noteGen5/dynamics 100
-/noteGen5/pitchset 1.000000 2.000000 3.000000 4.000000 5.000000 6.000000 7.000000 8.000000
-/noteGen5/transpose -60
-/noteGen5/wide 0
-# 
-/noteGen6/data/active 1
-/noteGen6/data/bypass 0
-/noteGen6/probs 50.000000 50.000000 50.000000 50.000000 50.000000 50.000000 50.000000 50.000000
-/noteGen6/dynamics 100
-/noteGen6/pitchset 1.000000 2.000000 3.000000 4.000000 5.000000 6.000000 7.000000 8.000000
-/noteGen6/transpose -60
-/noteGen6/wide 0
-# 
-/notegenpresets/file/path none
-# 
-/rhyth/data/active 1
-/rhyth/chordsizeMax 18
-/rhyth/chordsizeMin 4
-/rhyth/ed 1.000000 1.000000 1.000000 1.000000
-/rhyth/periodictyMax 13.000000
-/rhyth/periodictyMin 3.500000
-/rhyth/pulsedivide 1.000000
-/rhyth/rubato 8
-/rhyth/select 3
-/rhyth/start 0
-/rhyth/tempo 90.000000
+/rota/data/active 1
+/rota/data/bypass 0
+/rota/context default
+/rota/active 1
+/rota/adapt 1
+/rota/anchor 0.500000 0.500000
+/rota/antialias 0
+/rota/automatic 1
+/rota/boundmode wrap
+/rota/dim 720.000000 480.000000
+/rota/offset 0.000000 0.000000
+/rota/rect 0.000000 0.000000 1.000000 1.000000
+/rota/texrect 0.000000 0.000000 1.000000 1.000000
+/rota/theta 0.000000
+/rota/zoom 0.500000 0.500000
 # 
 /scale/data/active 1
 /scale/data/bypass 0
