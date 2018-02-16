@@ -1,0 +1,18 @@
+ORGAN DEMO
+2018-02-15
+
+TO TURN ON:
+
+1. Turn on the white power bar next to the iMac.
+
+2. Open the air valves from the wall (main valve, top two yellow valves (PPC main supply), top two red valves (PPC command signals)).
+
+3. Open organ_start.maxpat on the Desktop. If it doesn’t work, quit Max completely and try again.
+
+4. Turn on the Abra power supply (on the floor to the right of the desk) for the ENTTEC ODE if you want to use the DMX lights.
+
+TO TURN OFF:
+
+1. Close the air valves main wall. Open the third red valve (with no hose attached) to bleed the remaining air pressure.
+
+2. Turn off the power bar.
