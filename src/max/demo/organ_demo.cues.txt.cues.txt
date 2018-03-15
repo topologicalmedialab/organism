@@ -1,0 +1,421 @@
+- cue "default"
+- description "something about this cue"
+# ###########################################
+# 
+/organ_com/18pcs/ppc/scale/high 0.412214
+/organ_com/18pcs/ppc/scale/low 0.000000
+/organ_com/18pcs/ppc/on 1
+/organ_com/18pcs/solenoids 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+/organ_com/8pcs/ppc/scale/high 0.496183
+/organ_com/8pcs/ppc/scale/low 0.000000
+/organ_com/8pcs/ppc/on 1
+/organ_com/8pcs/solenoids 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+/organ_com/baud 115200
+/organ_com/port b
+# 
+# 
+/gl_motion/gl_cf_gaussian_2p/data/active 1
+/gl_motion/gl_cf_gaussian_2p/data/bypass 0
+/gl_motion/gl_cf_gaussian_2p/width/x 0.100000
+/gl_motion/gl_cf_gaussian_2p/width/y 0.100000
+/gl_motion/gl_cf_gaussian_2p/context default
+/gl_motion/gl_cf_gaussian_2p/active 1
+/gl_motion/gl_cf_gaussian_2p/adapt 1
+/gl_motion/gl_cf_gaussian_2p/antialias 0
+/gl_motion/gl_cf_gaussian_2p/automatic 1
+/gl_motion/gl_cf_gaussian_2p/dim 720.000000 480.000000
+/gl_motion/gl_cf_gaussian_2p/rect 0.000000 0.000000 1.000000 1.000000
+/gl_motion/gl_cf_gaussian_2p/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/gl_motion/gl_pix_roberts/data/active 1
+/gl_motion/gl_pix_roberts/data/bypass 0
+/gl_motion/gl_pix_roberts/context default
+/gl_motion/gl_pix_roberts/active 1
+/gl_motion/gl_pix_roberts/adapt 1
+/gl_motion/gl_pix_roberts/antialias 0
+/gl_motion/gl_pix_roberts/automatic 1
+/gl_motion/gl_pix_roberts/dim 720.000000 480.000000
+/gl_motion/gl_pix_roberts/rect 0.000000 0.000000 1.000000 1.000000
+/gl_motion/gl_pix_roberts/texrect 0.000000 0.000000 1.000000 1.000000
+/gl_motion/gl_pix_roberts/weight 0.351000
+# 
+/gl_motion/gl_pix_sobel/data/active 1
+/gl_motion/gl_pix_sobel/data/bypass 0
+/gl_motion/gl_pix_sobel/context default
+/gl_motion/gl_pix_sobel/active 1
+/gl_motion/gl_pix_sobel/adapt 1
+/gl_motion/gl_pix_sobel/antialias 0
+/gl_motion/gl_pix_sobel/automatic 1
+/gl_motion/gl_pix_sobel/dim 720.000000 480.000000
+/gl_motion/gl_pix_sobel/rect 0.000000 0.000000 1.000000 1.000000
+/gl_motion/gl_pix_sobel/texrect 0.000000 0.000000 1.000000 1.000000
+/gl_motion/gl_pix_sobel/weight 0.351000
+# 
+/gl_motion/gl_pix_thresh/data/active 1
+/gl_motion/gl_pix_thresh/data/bypass 0
+/gl_motion/gl_pix_thresh/context default
+/gl_motion/gl_pix_thresh/active 1
+/gl_motion/gl_pix_thresh/adapt 1
+/gl_motion/gl_pix_thresh/antialias 0
+/gl_motion/gl_pix_thresh/automatic 1
+/gl_motion/gl_pix_thresh/dim 720.000000 480.000000
+/gl_motion/gl_pix_thresh/rect 0.000000 0.000000 1.000000 1.000000
+/gl_motion/gl_pix_thresh/select 0
+/gl_motion/gl_pix_thresh/texrect 0.000000 0.000000 1.000000 1.000000
+/gl_motion/gl_pix_thresh/thresh 0.100000
+# 
+/gl_motion/post_slide/data/active 1
+/gl_motion/post_slide/data/bypass 0
+/gl_motion/post_slide/context default
+/gl_motion/post_slide/active 1
+/gl_motion/post_slide/adapt 1
+/gl_motion/post_slide/antialias 0
+/gl_motion/post_slide/attack 0.000000
+/gl_motion/post_slide/automatic 1
+/gl_motion/post_slide/decay 0.000000
+/gl_motion/post_slide/dim 720.000000 480.000000
+/gl_motion/post_slide/rect 0.000000 0.000000 1.000000 1.000000
+/gl_motion/post_slide/texrect 0.000000 0.000000 1.000000 1.000000
+/gl_motion/post_slide/vertex 0
+/gl_motion/data/active 1
+/gl_motion/data/bypass 0
+/gl_motion/context default
+/gl_motion/active 1
+/gl_motion/adapt 1
+/gl_motion/antialias 0
+/gl_motion/automatic 1
+/gl_motion/blur 0.100000
+/gl_motion/colour 0
+/gl_motion/denoise 1
+/gl_motion/dim 720.000000 480.000000
+/gl_motion/edge 0
+/gl_motion/framediff 1
+/gl_motion/invert 0
+/gl_motion/motionprocessor 3
+/gl_motion/operator 0
+/gl_motion/rect 0.000000 0.000000 1.000000 1.000000
+/gl_motion/slide 0
+/gl_motion/slide_down 0.000000
+/gl_motion/slide_up 0.000000
+/gl_motion/texrect 0.000000 0.000000 1.000000 1.000000
+/gl_motion/threshold 0.100000
+/gl_motion/weight 0.351000
+# 
+/qom_l/scale/input/max 1.000000
+/qom_l/scale/input/min 0.000000
+/qom_l/scale/max 1.000000
+/qom_l/scale/min 0.000000
+/qom_l/scale/mode 5
+/qom_l/scale/window 500
+/qom_l/function/symmetry none
+/qom_l/function/parameter2 1.040000
+/qom_l/function/parameter1 21.000000
+/qom_l/data/active 1
+/qom_l/data/bypass 0
+/qom_l/filter/mode 1
+/qom_l/filter/samples 0
+/qom_l/pre-slide/down 0
+/qom_l/pre-slide/up 0
+/qom_l/ramp/grain 1
+/qom_l/ramp/time 0
+/qom_l/schmitt/debounce 0
+/qom_l/schmitt/lower 0.700000
+/qom_l/schmitt/on 1
+/qom_l/schmitt/ramp 0
+/qom_l/schmitt/upper 0.300000
+/qom_l/slide/down 0
+/qom_l/slide/up 0
+/qom_l/abs 0
+/qom_l/clip 1
+/qom_l/diffMode 0
+/qom_l/offset 0.000000
+/qom_l/visualize 1
+# 
+/qom_s/scale/input/max 1.000000
+/qom_s/scale/input/min 0.000000
+/qom_s/scale/max 1.000000
+/qom_s/scale/min 0.000000
+/qom_s/scale/mode 5
+/qom_s/scale/window 500
+/qom_s/function/symmetry none
+/qom_s/function/parameter2 1.040000
+/qom_s/function/parameter1 21.000000
+/qom_s/data/active 1
+/qom_s/data/bypass 0
+/qom_s/filter/mode 1
+/qom_s/filter/samples 0
+/qom_s/pre-slide/down 0
+/qom_s/pre-slide/up 0
+/qom_s/ramp/grain 1
+/qom_s/ramp/time 0
+/qom_s/schmitt/debounce 0
+/qom_s/schmitt/lower 0.700000
+/qom_s/schmitt/on 1
+/qom_s/schmitt/ramp 0
+/qom_s/schmitt/upper 0.300000
+/qom_s/slide/down 0
+/qom_s/slide/up 0
+/qom_s/abs 0
+/qom_s/clip 1
+/qom_s/diffMode 0
+/qom_s/offset 0.000000
+/qom_s/visualize 1
+# 
+/async1/data/active 1
+/async1/data/bypass 0
+/async1/dim/x 18
+/async1/dim/y 2
+# 
+/brcosa/data/active 1
+/brcosa/data/bypass 0
+/brcosa/context default
+/brcosa/active 1
+/brcosa/adapt 1
+/brcosa/antialias 0
+/brcosa/automatic 1
+/brcosa/brightness 1.000000
+/brcosa/contrast 1.000000
+/brcosa/dim 720.000000 480.000000
+/brcosa/rect 0.000000 0.000000 1.000000 1.000000
+/brcosa/saturation 1.000000
+/brcosa/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/rotate/data/active 1
+/rotate/data/bypass 0
+/rotate/context default
+/rotate/active 1
+/rotate/adapt 1
+/rotate/anchor 0.500000 0.500000
+/rotate/antialias 0
+/rotate/automatic 1
+/rotate/boundmode alpha
+/rotate/dim 720.000000 480.000000
+/rotate/offset 0.000000 0.000000
+/rotate/rect 0.000000 0.000000 1.000000 1.000000
+/rotate/texrect 0.000000 0.000000 1.000000 1.000000
+/rotate/theta 45.000000
+/rotate/zoom 1.000000 1.000000
+# 
+/scale/data/active 1
+/scale/data/bypass 0
+/scale/context default
+/scale/active 1
+/scale/adapt 1
+/scale/anchor 0.500000 0.500000
+/scale/antialias 0
+/scale/automatic 1
+/scale/boundmode alpha
+/scale/dim 720.000000 480.000000
+/scale/offset 0.000000 0.000000
+/scale/rect 0.000000 0.000000 1.000000 1.000000
+/scale/texrect 0.000000 0.000000 1.000000 1.000000
+/scale/theta 0.000000
+/scale/zoom 2.000000 2.000000
+# 
+# ###########################################
+
+- cue "slow"
+- description "something about this cue"
+# ###########################################
+# 
+# 
+/gl_motion/gl_cf_gaussian_2p/data/active 1
+/gl_motion/gl_cf_gaussian_2p/data/bypass 0
+/gl_motion/gl_cf_gaussian_2p/width/x 1.000000
+/gl_motion/gl_cf_gaussian_2p/width/y 1.000000
+/gl_motion/gl_cf_gaussian_2p/context default
+/gl_motion/gl_cf_gaussian_2p/active 1
+/gl_motion/gl_cf_gaussian_2p/adapt 1
+/gl_motion/gl_cf_gaussian_2p/antialias 0
+/gl_motion/gl_cf_gaussian_2p/automatic 1
+/gl_motion/gl_cf_gaussian_2p/dim 720.000000 480.000000
+/gl_motion/gl_cf_gaussian_2p/rect 0.000000 0.000000 1.000000 1.000000
+/gl_motion/gl_cf_gaussian_2p/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/gl_motion/gl_pix_roberts/data/active 1
+/gl_motion/gl_pix_roberts/data/bypass 0
+/gl_motion/gl_pix_roberts/context default
+/gl_motion/gl_pix_roberts/active 1
+/gl_motion/gl_pix_roberts/adapt 1
+/gl_motion/gl_pix_roberts/antialias 0
+/gl_motion/gl_pix_roberts/automatic 1
+/gl_motion/gl_pix_roberts/dim 720.000000 480.000000
+/gl_motion/gl_pix_roberts/rect 0.000000 0.000000 1.000000 1.000000
+/gl_motion/gl_pix_roberts/texrect 0.000000 0.000000 1.000000 1.000000
+/gl_motion/gl_pix_roberts/weight 0.351000
+# 
+/gl_motion/gl_pix_sobel/data/active 1
+/gl_motion/gl_pix_sobel/data/bypass 0
+/gl_motion/gl_pix_sobel/context default
+/gl_motion/gl_pix_sobel/active 1
+/gl_motion/gl_pix_sobel/adapt 1
+/gl_motion/gl_pix_sobel/antialias 0
+/gl_motion/gl_pix_sobel/automatic 1
+/gl_motion/gl_pix_sobel/dim 720.000000 480.000000
+/gl_motion/gl_pix_sobel/rect 0.000000 0.000000 1.000000 1.000000
+/gl_motion/gl_pix_sobel/texrect 0.000000 0.000000 1.000000 1.000000
+/gl_motion/gl_pix_sobel/weight 0.351000
+# 
+/gl_motion/gl_pix_thresh/data/active 1
+/gl_motion/gl_pix_thresh/data/bypass 0
+/gl_motion/gl_pix_thresh/context default
+/gl_motion/gl_pix_thresh/active 1
+/gl_motion/gl_pix_thresh/adapt 1
+/gl_motion/gl_pix_thresh/antialias 0
+/gl_motion/gl_pix_thresh/automatic 1
+/gl_motion/gl_pix_thresh/dim 720.000000 480.000000
+/gl_motion/gl_pix_thresh/rect 0.000000 0.000000 1.000000 1.000000
+/gl_motion/gl_pix_thresh/select 0
+/gl_motion/gl_pix_thresh/texrect 0.000000 0.000000 1.000000 1.000000
+/gl_motion/gl_pix_thresh/thresh 0.100000
+# 
+/gl_motion/post_slide/data/active 1
+/gl_motion/post_slide/data/bypass 0
+/gl_motion/post_slide/context default
+/gl_motion/post_slide/active 1
+/gl_motion/post_slide/adapt 1
+/gl_motion/post_slide/antialias 0
+/gl_motion/post_slide/attack 0.900000
+/gl_motion/post_slide/automatic 1
+/gl_motion/post_slide/decay 0.000000
+/gl_motion/post_slide/dim 720.000000 480.000000
+/gl_motion/post_slide/rect 0.000000 0.000000 1.000000 1.000000
+/gl_motion/post_slide/texrect 0.000000 0.000000 1.000000 1.000000
+/gl_motion/post_slide/vertex 0
+/gl_motion/data/active 1
+/gl_motion/data/bypass 0
+/gl_motion/context default
+/gl_motion/active 1
+/gl_motion/adapt 1
+/gl_motion/antialias 0
+/gl_motion/automatic 1
+/gl_motion/blur 0.100000
+/gl_motion/colour 0
+/gl_motion/denoise 1
+/gl_motion/dim 720.000000 480.000000
+/gl_motion/edge 0
+/gl_motion/framediff 1
+/gl_motion/invert 0
+/gl_motion/motionprocessor 3
+/gl_motion/operator 0
+/gl_motion/rect 0.000000 0.000000 1.000000 1.000000
+/gl_motion/slide 0
+/gl_motion/slide_down 0.000000
+/gl_motion/slide_up 0.000000
+/gl_motion/texrect 0.000000 0.000000 1.000000 1.000000
+/gl_motion/threshold 0.100000
+/gl_motion/weight 0.351000
+# 
+/qom_l/scale/input/max 1.000000
+/qom_l/scale/input/min 0.000000
+/qom_l/scale/max 1.000000
+/qom_l/scale/min 0.000000
+/qom_l/scale/mode 5
+/qom_l/scale/window 500
+/qom_l/function/symmetry none
+/qom_l/function/parameter2 1.040000
+/qom_l/function/parameter1 21.000000
+/qom_l/data/active 1
+/qom_l/data/bypass 0
+/qom_l/filter/mode 1
+/qom_l/filter/samples 0
+/qom_l/pre-slide/down 15
+/qom_l/pre-slide/up 0
+/qom_l/ramp/grain 1
+/qom_l/ramp/time 200
+/qom_l/schmitt/debounce 0
+/qom_l/schmitt/lower 0.700000
+/qom_l/schmitt/on 1
+/qom_l/schmitt/ramp 0
+/qom_l/schmitt/upper 0.300000
+/qom_l/slide/down 0
+/qom_l/slide/up 15
+/qom_l/abs 0
+/qom_l/clip 1
+/qom_l/diffMode 0
+/qom_l/offset 0.000000
+/qom_l/visualize 1
+# 
+/qom_s/scale/input/max 1.000000
+/qom_s/scale/input/min 0.000000
+/qom_s/scale/max 1.000000
+/qom_s/scale/min 0.000000
+/qom_s/scale/mode 5
+/qom_s/scale/window 500
+/qom_s/function/symmetry none
+/qom_s/function/parameter2 1.040000
+/qom_s/function/parameter1 21.000000
+/qom_s/data/active 1
+/qom_s/data/bypass 0
+/qom_s/filter/mode 1
+/qom_s/filter/samples 0
+/qom_s/pre-slide/down 15
+/qom_s/pre-slide/up 0
+/qom_s/ramp/grain 1
+/qom_s/ramp/time 225
+/qom_s/schmitt/debounce 0
+/qom_s/schmitt/lower 0.700000
+/qom_s/schmitt/on 1
+/qom_s/schmitt/ramp 0
+/qom_s/schmitt/upper 0.300000
+/qom_s/slide/down 0
+/qom_s/slide/up 15
+/qom_s/abs 0
+/qom_s/clip 1
+/qom_s/diffMode 0
+/qom_s/offset 0.000000
+/qom_s/visualize 1
+# 
+/async1/data/active 0
+/async1/data/bypass 0
+/async1/dim/x 18
+/async1/dim/y 2
+# 
+/brcosa/data/active 1
+/brcosa/data/bypass 0
+/brcosa/context default
+/brcosa/active 1
+/brcosa/adapt 1
+/brcosa/antialias 0
+/brcosa/automatic 1
+/brcosa/brightness 1.000000
+/brcosa/contrast 1.000000
+/brcosa/dim 720.000000 480.000000
+/brcosa/rect 0.000000 0.000000 1.000000 1.000000
+/brcosa/saturation 1.000000
+/brcosa/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/rotate/data/active 1
+/rotate/data/bypass 0
+/rotate/context default
+/rotate/active 1
+/rotate/adapt 1
+/rotate/anchor 0.500000 0.500000
+/rotate/antialias 0
+/rotate/automatic 1
+/rotate/boundmode alpha
+/rotate/dim 720.000000 480.000000
+/rotate/offset 0.000000 0.000000
+/rotate/rect 0.000000 0.000000 1.000000 1.000000
+/rotate/texrect 0.000000 0.000000 1.000000 1.000000
+/rotate/theta 45.000000
+/rotate/zoom 1.000000 1.000000
+# 
+/scale/data/active 1
+/scale/data/bypass 0
+/scale/context default
+/scale/active 1
+/scale/adapt 1
+/scale/anchor 0.500000 0.500000
+/scale/antialias 0
+/scale/automatic 1
+/scale/boundmode alpha
+/scale/dim 720.000000 480.000000
+/scale/offset -60.200001 68.000000
+/scale/rect 0.000000 0.000000 1.000000 1.000000
+/scale/texrect 0.000000 0.000000 1.000000 1.000000
+/scale/theta 0.000000
+/scale/zoom 4.000000 1.220000
+# 
+# ###########################################
+
